@@ -1,0 +1,7 @@
+parameters:
+#    willothewisp_test_task.example.class: Willothewisp\Bundle\TestTaskBundle\Example
+
+services:
+#    willothewisp_test_task.example:
+#        class: %willothewisp_test_task.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

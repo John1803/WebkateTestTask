@@ -1,0 +1,4 @@
+willothewisp_test_task:
+    resource: "@WillothewispTestTaskBundle/Resources/config/routing.yml"
+    prefix:   /
+
