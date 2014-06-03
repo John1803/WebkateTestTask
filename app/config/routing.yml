@@ -2,3 +2,10 @@ willothewisp_test_task:
     resource: "@WillothewispTestTaskBundle/Resources/config/routing.yml"
     prefix:   /
 
+willothewisp_test_task_category:
+        resource: "@WillothewispTestTaskBundle/Resources/config/routing/category.yml"
+        prefix:   /category
+
+willothewisp_test_task_project:
+        resource: "@WillothewispTestTaskBundle/Resources/config/routing/project.yml"
+        prefix:   /project
