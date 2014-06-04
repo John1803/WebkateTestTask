@@ -2,19 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4cfa9b70-81d3-4d5e-85c0-9a2752d630de" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Willothewisp/Bundle/TestTaskBundle/TreeStructure/TreeStructure.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Willothewisp/Bundle/TestTaskBundle/Resources/config/services.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/AppKernel.php" afterPath="$PROJECT_DIR$/app/AppKernel.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Willothewisp/Bundle/TestTaskBundle/Controller/ExecutorController.php" afterPath="$PROJECT_DIR$/src/Willothewisp/Bundle/TestTaskBundle/Controller/ExecutorController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Willothewisp/Bundle/TestTaskBundle/Form/ExecutorType.php" afterPath="$PROJECT_DIR$/src/Willothewisp/Bundle/TestTaskBundle/Form/ExecutorType.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Willothewisp/Bundle/TestTaskBundle/Form/ProjectType.php" afterPath="$PROJECT_DIR$/src/Willothewisp/Bundle/TestTaskBundle/Form/ProjectType.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Willothewisp/Bundle/TestTaskBundle/Controller/TreeStructureController.php" afterPath="$PROJECT_DIR$/src/Willothewisp/Bundle/TestTaskBundle/Controller/TreeStructureController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Willothewisp/Bundle/TestTaskBundle/DependencyInjection/WillothewispTestTaskExtension.php" afterPath="$PROJECT_DIR$/src/Willothewisp/Bundle/TestTaskBundle/DependencyInjection/WillothewispTestTaskExtension.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/config.yml" afterPath="$PROJECT_DIR$/app/config/config.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Willothewisp/Bundle/TestTaskBundle/Resources/views/Executor/createExecutor.html.twig" afterPath="$PROJECT_DIR$/src/Willothewisp/Bundle/TestTaskBundle/Resources/views/Executor/createExecutor.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Willothewisp/Bundle/TestTaskBundle/Resources/views/TreeStructure/index.html.twig" afterPath="$PROJECT_DIR$/src/Willothewisp/Bundle/TestTaskBundle/Resources/views/TreeStructure/index.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Willothewisp/Bundle/TestTaskBundle/Resources/views/layout.html.twig" afterPath="$PROJECT_DIR$/src/Willothewisp/Bundle/TestTaskBundle/Resources/views/layout.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Willothewisp/Bundle/TestTaskBundle/Resources/config/routing.yml" afterPath="$PROJECT_DIR$/src/Willothewisp/Bundle/TestTaskBundle/Resources/config/routing.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Willothewisp/Bundle/TestTaskBundle/Entity/CategoryRepository.php" afterPath="$PROJECT_DIR$/src/Willothewisp/Bundle/TestTaskBundle/Entity/CategoryRepository.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Willothewisp/Bundle/TestTaskBundle/Entity/ExecutorRepository.php" afterPath="$PROJECT_DIR$/src/Willothewisp/Bundle/TestTaskBundle/Entity/ExecutorRepository.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Willothewisp/Bundle/TestTaskBundle/Entity/ProjectRepository.php" afterPath="$PROJECT_DIR$/src/Willothewisp/Bundle/TestTaskBundle/Entity/ProjectRepository.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="kate.iws" />
@@ -38,33 +28,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ExecutorType.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Willothewisp/Bundle/TestTaskBundle/Form/ExecutorType.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="37" selection-start="803" selection-end="803" vertical-scroll-proportion="0.0" vertical-offset="486" max-vertical-offset="990">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProjectType.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Willothewisp/Bundle/TestTaskBundle/Form/ProjectType.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="0" selection-start="566" selection-end="566" vertical-scroll-proportion="-11.0" vertical-offset="45" max-vertical-offset="828">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="routing.yml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/config/routing.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="0" selection-start="114" selection-end="114" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="createExecutor.html.twig" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Willothewisp/Bundle/TestTaskBundle/Resources/views/Executor/createExecutor.html.twig">
           <provider selected="true" editor-type-id="text-editor">
@@ -119,10 +82,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TreeStructure.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="TreeStructure.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Willothewisp/Bundle/TestTaskBundle/TreeStructure/TreeStructure.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="2" selection-start="93" selection-end="93" vertical-scroll-proportion="0.25506073" vertical-offset="0" max-vertical-offset="494">
+            <state line="7" column="2" selection-start="93" selection-end="93" vertical-scroll-proportion="-4.6666665" vertical-offset="0" max-vertical-offset="234">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CategoryRepository.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Willothewisp/Bundle/TestTaskBundle/Entity/CategoryRepository.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="5" selection-start="571" selection-end="571" vertical-scroll-proportion="-15.333333" vertical-offset="0" max-vertical-offset="558">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ExecutorRepository.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Willothewisp/Bundle/TestTaskBundle/Entity/ExecutorRepository.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="31" column="5" selection-start="819" selection-end="819" vertical-scroll-proportion="-17.851852" vertical-offset="76" max-vertical-offset="702">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProjectRepository.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Willothewisp/Bundle/TestTaskBundle/Entity/ProjectRepository.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="30" column="33" selection-start="795" selection-end="795" vertical-scroll-proportion="0.68725866" vertical-offset="184" max-vertical-offset="810">
               <folding />
             </state>
           </provider>
@@ -146,9 +136,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/config/routing.yml" />
-        <option value="$PROJECT_DIR$/app/config/parameters.yml" />
-        <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/src/Willothewisp/Bundle/TestTaskBundle/Resources/views/layout.html.twig" />
         <option value="$PROJECT_DIR$/src/Willothewisp/Bundle/TestTaskBundle/Resources/views/Executor/createExecutor.html.twig" />
         <option value="$PROJECT_DIR$/src/Willothewisp/Bundle/TestTaskBundle/Controller/ExecutorController.php" />
@@ -162,6 +149,9 @@
         <option value="$PROJECT_DIR$/src/Willothewisp/Bundle/TestTaskBundle/Resources/config/services.xml" />
         <option value="$PROJECT_DIR$/src/Willothewisp/Bundle/TestTaskBundle/DependencyInjection/WillothewispTestTaskExtension.php" />
         <option value="$PROJECT_DIR$/src/Willothewisp/Bundle/TestTaskBundle/TreeStructure/TreeStructure.php" />
+        <option value="$PROJECT_DIR$/src/Willothewisp/Bundle/TestTaskBundle/Entity/CategoryRepository.php" />
+        <option value="$PROJECT_DIR$/src/Willothewisp/Bundle/TestTaskBundle/Entity/ExecutorRepository.php" />
+        <option value="$PROJECT_DIR$/src/Willothewisp/Bundle/TestTaskBundle/Entity/ProjectRepository.php" />
       </list>
     </option>
   </component>
@@ -563,28 +553,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/composer.lock">
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="28674" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="0" selection-start="649" selection-end="649" vertical-scroll-proportion="0.0" vertical-offset="468" max-vertical-offset="1368">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Willothewisp/Bundle/TestTaskBundle/Controller/ExecutorController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="65" selection-start="1168" selection-end="1168" vertical-scroll-proportion="0.0" vertical-offset="268" max-vertical-offset="810">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="82" selection-start="813" selection-end="813" vertical-scroll-proportion="0.0" vertical-offset="324" max-vertical-offset="756">
@@ -671,7 +639,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Willothewisp/Bundle/TestTaskBundle/TreeStructure/TreeStructure.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="2" selection-start="93" selection-end="93" vertical-scroll-proportion="0.25506073" vertical-offset="0" max-vertical-offset="494">
+        <state line="7" column="2" selection-start="93" selection-end="93" vertical-scroll-proportion="-4.6666665" vertical-offset="0" max-vertical-offset="234">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Willothewisp/Bundle/TestTaskBundle/Entity/CategoryRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="5" selection-start="571" selection-end="571" vertical-scroll-proportion="-15.333333" vertical-offset="0" max-vertical-offset="558">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Willothewisp/Bundle/TestTaskBundle/Entity/ExecutorRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="5" selection-start="819" selection-end="819" vertical-scroll-proportion="-17.851852" vertical-offset="76" max-vertical-offset="702">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Willothewisp/Bundle/TestTaskBundle/Entity/ProjectRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="33" selection-start="795" selection-end="795" vertical-scroll-proportion="0.68725866" vertical-offset="184" max-vertical-offset="810">
           <folding />
         </state>
       </provider>

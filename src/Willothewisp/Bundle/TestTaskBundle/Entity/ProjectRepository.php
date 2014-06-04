@@ -12,4 +12,28 @@ use Doctrine\ORM\EntityRepository;
  */
 class ProjectRepository extends EntityRepository
 {
+    public function findProjectsByCategoryId($categoryId)
+    {
+        return $this->createQueryBuilder('p')
+            ->Where('p.category = :category_id')
+            ->OrderBy('p.createdAt')
+            ->setParameter('category_id', $categoryId)
+            ->getQuery()
+            ->getResult()
+            ;
+    }
+
+    public function findProjectsAssociatedWithExecutors()
+    {
+        return $this->getEntityManager()
+            ->createQuery(
+                'SELECT p, e
+                FROM WillothewispTestTaskBundle:Project p
+                LEFT JOIN projects_executors
+                ON p.id = projects_executors.project_id
+                LEFT JOIN WillothewispTestTaskBundle:Executor e
+                ON e.id = projects_executors.executor_id'
+            )
+            ;
+    }
 }

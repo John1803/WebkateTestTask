@@ -12,4 +12,14 @@ use Doctrine\ORM\EntityRepository;
  */
 class CategoryRepository extends EntityRepository
 {
+    public function findCategoriesAssociatedWithProjects()
+    {
+        return $this->createQueryBuilder('c')
+            ->select('c', 'p')
+            ->leftJoin('c.projects', 'p')
+            ->OrderBy('p.createdAt')
+            ->getQuery()
+            ->getResult()
+            ;
+    }
 }
