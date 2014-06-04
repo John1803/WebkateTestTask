@@ -19,7 +19,6 @@ class ProjectType extends AbstractType
             ->add('createdAt')
             ->add('customer')
             ->add('category')
-            ->add('executors')
         ;
     }
     

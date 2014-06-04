@@ -1,0 +1,31 @@
+<container xmlns="http://symfony.com/schema/dic/services"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://symfony.com/schema/dic/services http://symfony.com/schema/dic/services/services-1.0.xsd">
+
+    <!--<parameters>-->
+    <!--<parameter key="value.setPerPage">10</parameter>-->
+    <!--</parameters>-->
+
+    <services>
+
+        <service id="willothewisp_test_task_bundle.executor_repository" class="Willothewisp\Bundle\TestTaskBundle\Entity\ExecutorRepository" factory-service="doctrine.orm.entity_manager" factory-method="getRepository">
+            <argument>WillothewispTestTaskBundle:Executor</argument>
+        </service>
+
+        <service id="willothewisp_test_task_bundle.project_repository" class="WebKate\Bundle\TestTaskBundle\Entity\ProjectRepository" factory-service="doctrine.orm.entity_manager" factory-method="getRepository">
+            <argument>WillothewispTestTaskBundle:Project</argument>
+        </service>
+
+        <service id="willothewisp_test_task_bundle.category_repository" class="WebKate\Bundle\TestTaskBundle\Entity\CategoryRepository" factory-service="doctrine.orm.entity_manager" factory-method="getRepository">
+            <argument>WillothewispTestTaskBundle:Category</argument>
+        </service>
+
+        <service id="willothewisp_test_task_bundle.tree_structure" class="Willothewisp\Bundle\TestTaskBundle\TreeStructure\TreeStructure">
+            <argument type="service" id="willothewisp_test_task_bundle.executor_repository"/>
+            <argument type="service" id="willothewisp_test_task_bundle.project_repository"/>
+            <argument type="service" id="willothewisp_test_task_bundle.category_repository"/>
+        </service>
+
+    </services>
+
+</container>

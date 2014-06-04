@@ -1,3 +1,7 @@
 _homepage:
-    path:  /hello/{name}
+    path:  /
     defaults: { _controller: WillothewispTestTaskBundle:TreeStructure:index }
+
+_executor_create:
+    path: /executor/create
+    defaults: { _controller: WillothewispTestTaskBundle:Executor:createExecutor }

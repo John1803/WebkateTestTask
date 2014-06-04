@@ -33,7 +33,7 @@ class ExecutorController extends Controller
             return $this->redirect($this->generateUrl('_homepage'));
         }
 
-        return $this->render('WebKateTestTaskBundle:Default:createExecutor.html.twig', array(
+        return $this->render('WillothewispTestTaskBundle:Executor:createExecutor.html.twig', array(
             'form' => $form->createView(),
         ));
     }
