@@ -2,7 +2,6 @@
 
 namespace Willothewisp\Bundle\TestTaskBundle\Controller;
 
-
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\Request;
 use Willothewisp\Bundle\TestTaskBundle\Entity\Executor;
@@ -12,11 +11,11 @@ class ExecutorController extends Controller
 {
     public function executorsAction()
     {
-        $executors = $this->get('web_kate_test_task_bundle.executor.repository')
+        $executors = $this->get('willothewisp_test_task_bundle.executor_repository')
             ->findAllOrderByCareerBeggining()
         ;
 
-        return $this->render('WebKateTestTaskBundle:Default:executors.html.twig', array(
+        return $this->render('WillothewispTestTaskBundle:Executor:executors.html.twig', array(
             'executors' => $executors,
         ));
     }

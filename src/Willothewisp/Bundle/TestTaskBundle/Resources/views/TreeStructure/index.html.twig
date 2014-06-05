@@ -1,1 +1,30 @@
 {% extends 'WillothewispTestTaskBundle::layout.html.twig' %}
+{% block body %}
+<div class="container">
+    <!-- Example row of columns -->
+    <div class="row">
+        <div class="col-lg-4">
+            <ul>
+                <li>{% for category in categories %}
+                        <h2>{{ category.title }}</h2>
+                        <ul>
+                            <li>{% for project in category.projects %}
+                                    <h3>{{ project.title }}</h3>
+                                    <ul>
+                                        <li>{% for executor in project.executors %}
+                                                <h2>{{ executor.secondName }} {{ executor.firstName }}</h2>
+                                            {% endfor %}
+                                        </li>
+                                    </ul>
+                                {% endfor %}
+                            </li>
+                        </ul>
+                    {% endfor %}
+                </li>
+            </ul>
+
+            <p><a class="btn btn-default" href="#">View details &raquo;</a></p>
+        </div>
+    </div>
+</div> <!-- /container -->
+{% endblock %}

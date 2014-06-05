@@ -8,6 +8,15 @@ class TreeStructureController extends Controller
 {
     public function indexAction()
     {
-        return $this->render('WillothewispTestTaskBundle:TreeStructure:index.html.twig');
+        $categories = $this->get('willothewisp_test_task_bundle.tree_structure')
+            ->getCategoriesWithProjects();
+
+        $projects = $this->get('willothewisp_test_task_bundle.tree_structure')
+            ->getProjectsWithExecutors();
+
+        return $this->render('WillothewispTestTaskBundle:TreeStructure:index.html.twig', array(
+            'projects' => $projects,
+            'categories' => $categories,
+        ));
     }
 }

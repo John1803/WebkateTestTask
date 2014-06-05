@@ -2,6 +2,10 @@ _homepage:
     path:  /
     defaults: { _controller: WillothewispTestTaskBundle:TreeStructure:index }
 
+_executors:
+    path: /executors
+    defaults: { _controller: WillothewispTestTaskBundle:Executor:executors }
+
 _executor_create:
     path: /executor/create
     defaults: { _controller: WillothewispTestTaskBundle:Executor:createExecutor }
