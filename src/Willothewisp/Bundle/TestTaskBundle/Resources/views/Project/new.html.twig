@@ -3,13 +3,17 @@
 {% block body -%}
     <h1>Project creation</h1>
 
-    {{ form(form) }}
+    {{ form_start(form) }}
+    {{ form_errors(form) }}
+    <div class="row">
+        <div class="col-md-4">
+            {{ form_row(form.title, { 'label': 'Title' }) }}
+            {{ form_row(form.customer, { 'label': 'Customer' }) }}
+            {{ form_row(form.category, { 'label': 'Category' }) }}
+            {{ form_row(form.createdAt, { 'label': 'Created At' }) }}
+            {{ form_row(form.submit, { 'label': 'Submit me' }) }}
+        </div>
 
-        <ul class="record_actions">
-    <li>
-        <a href="{{ path('project') }}">
-            Back to the list
-        </a>
-    </li>
-</ul>
+        {{ form_rest(form) }}
+    </div>
 {% endblock %}

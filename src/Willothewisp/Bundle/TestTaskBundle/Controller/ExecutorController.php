@@ -15,8 +15,12 @@ class ExecutorController extends Controller
             ->findAllOrderByCareerBeggining()
         ;
 
+        $projects = $this->get('willothewisp_test_task_bundle.tree_structure')
+            ->getProjectsWithExecutors();
+
         return $this->render('WillothewispTestTaskBundle:Executor:executors.html.twig', array(
             'executors' => $executors,
+            'projects' => $projects,
         ));
     }
     public function createExecutorAction(Request $request)

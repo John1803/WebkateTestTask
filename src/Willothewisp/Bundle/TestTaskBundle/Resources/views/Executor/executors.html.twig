@@ -1,5 +1,18 @@
+{% extends 'WillothewispTestTaskBundle::layout.html.twig' %}
+
 {% block body %}
-    {% for executor in executors %}
-        <h4>{{ executor.secondName }}</h4>
-    {% endfor %}
+    <ul>
+        <li>{% for executor in executors %}
+            <h4>{{ executor.firstName }} {{ executor.secondName }}</h4>
+                <ul>
+                    <li>{% for project in executor.projects %}
+                        <h5>{{ project.title }}</h5>
+                    {% endfor %}
+                    </li>
+                </ul>
+            {% endfor %}
+        </li>
+    </ul>
+    {{ render(controller('WillothewispTestTaskBundle:Executor:createExecutor')) }}
+
 {% endblock %}

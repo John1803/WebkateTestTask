@@ -44,7 +44,7 @@ class ProjectController extends Controller
             $em->persist($entity);
             $em->flush();
 
-            return $this->redirect($this->generateUrl('project_show', array('id' => $entity->getId())));
+            return $this->redirect($this->generateUrl('project'));
         }
 
         return $this->render('WillothewispTestTaskBundle:Project:new.html.twig', array(

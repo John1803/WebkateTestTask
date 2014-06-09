@@ -44,7 +44,7 @@ class CategoryController extends Controller
             $em->persist($entity);
             $em->flush();
 
-            return $this->redirect($this->generateUrl('category_show', array('id' => $entity->getId())));
+            return $this->redirect($this->generateUrl('category'));
         }
 
         return $this->render('WillothewispTestTaskBundle:Category:new.html.twig', array(

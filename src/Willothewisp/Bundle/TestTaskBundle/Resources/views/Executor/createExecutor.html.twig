@@ -1,5 +1,23 @@
-{% extends 'WillothewispTestTaskBundle::layout.html.twig' %}
-
 {% block body %}
-    {{ form(form) }}
+    <h1>Executor creation</h1>
+
+    {{ form_start(form) }}
+    {{ form_errors(form) }}
+    <div class="row">
+        <div class="col-md-4">
+            {{ form_row(form.secondName, { 'label': 'Second Name' }) }}
+            {{ form_row(form.firstName, { 'label': 'First Name' }) }}
+            {{ form_row(form.patronymic, { 'label': 'Patronymic' }) }}
+            {{ form_row(form.birthday, { 'label': 'Birthday' }) }}
+            {{ form_row(form.careerBeggining, { 'label': 'Career Beggining' }) }}
+            {{ form_row(form.email, { 'label': 'Email' }) }}
+            {{ form_row(form.address, { 'label': 'Address' }) }}
+            {{ form_row(form.phoneNumber, { 'label': 'Phone Number' }) }}
+            {{ form_row(form.technologyUsed, { 'label': 'Technology Using' }) }}
+            {{ form_row(form.projects, { 'label': 'Select Project(s)' }) }}
+            {{ form_row(form.submit, { 'label': 'Submit me' }) }}
+        </div>
+
+        {{ form_rest(form) }}
+    </div>
 {% endblock %}
