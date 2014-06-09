@@ -102,7 +102,7 @@ class Executor
         $this->projects = new ArrayCollection();
     }
 
-    /**
+     /**
      * Get id
      *
      * @return integer
@@ -253,21 +253,27 @@ class Executor
     }
 
     /**
+     * Set phoneNumber
+     *
      * @param string $phoneNumber
+     * @return Executor
      */
     public function setPhoneNumber($phoneNumber)
     {
         $this->phoneNumber = $phoneNumber;
+
+        return $this;
     }
 
     /**
+     * Get phoneNumber
+     *
      * @return string
      */
     public function getPhoneNumber()
     {
         return $this->phoneNumber;
     }
-
 
 
     /**
@@ -317,13 +323,13 @@ class Executor
     }
 
     /**
-     * @param ArrayCollection $projects
-     * @return $this
+     * @param \Willothewisp\Bundle\TestTaskBundle\Entity\Project $projects
+     * @return Executor
      */
 
-    public function setProjects(ArrayCollection $projects)
+    public function addProject(Project $projects)
     {
-        $this->projects = $projects;
+        $this->projects[] = $projects;
 
         return $this;
     }
@@ -331,6 +337,7 @@ class Executor
     /**
      * @return \Doctrine\Common\Collections\Collection
      */
+
     public function getProjects()
     {
         return $this->projects;
