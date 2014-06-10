@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4cfa9b70-81d3-4d5e-85c0-9a2752d630de" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Willothewisp/Bundle/TestTaskBundle/Controller/CategoryController.php" afterPath="$PROJECT_DIR$/src/Willothewisp/Bundle/TestTaskBundle/Controller/CategoryController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Willothewisp/Bundle/TestTaskBundle/Controller/ExecutorController.php" afterPath="$PROJECT_DIR$/src/Willothewisp/Bundle/TestTaskBundle/Controller/ExecutorController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Willothewisp/Bundle/TestTaskBundle/Controller/ProjectController.php" afterPath="$PROJECT_DIR$/src/Willothewisp/Bundle/TestTaskBundle/Controller/ProjectController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Willothewisp/Bundle/TestTaskBundle/Resources/views/Executor/createExecutor.html.twig" afterPath="$PROJECT_DIR$/src/Willothewisp/Bundle/TestTaskBundle/Resources/views/Executor/createExecutor.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Willothewisp/Bundle/TestTaskBundle/Resources/views/Category/edit.html.twig" afterPath="$PROJECT_DIR$/src/Willothewisp/Bundle/TestTaskBundle/Resources/views/Category/edit.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Willothewisp/Bundle/TestTaskBundle/Resources/views/Project/edit.html.twig" afterPath="$PROJECT_DIR$/src/Willothewisp/Bundle/TestTaskBundle/Resources/views/Project/edit.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Willothewisp/Bundle/TestTaskBundle/Resources/views/Executor/executors.html.twig" afterPath="$PROJECT_DIR$/src/Willothewisp/Bundle/TestTaskBundle/Resources/views/Executor/executors.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Willothewisp/Bundle/TestTaskBundle/Resources/views/Category/index.html.twig" afterPath="$PROJECT_DIR$/src/Willothewisp/Bundle/TestTaskBundle/Resources/views/Category/index.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Willothewisp/Bundle/TestTaskBundle/Resources/views/Project/index.html.twig" afterPath="$PROJECT_DIR$/src/Willothewisp/Bundle/TestTaskBundle/Resources/views/Project/index.html.twig" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Willothewisp/Bundle/TestTaskBundle/Resources/views/TreeStructure/index.html.twig" afterPath="$PROJECT_DIR$/src/Willothewisp/Bundle/TestTaskBundle/Resources/views/TreeStructure/index.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Willothewisp/Bundle/TestTaskBundle/Resources/views/Category/new.html.twig" afterPath="$PROJECT_DIR$/src/Willothewisp/Bundle/TestTaskBundle/Resources/views/Category/new.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Willothewisp/Bundle/TestTaskBundle/Resources/views/Project/new.html.twig" afterPath="$PROJECT_DIR$/src/Willothewisp/Bundle/TestTaskBundle/Resources/views/Project/new.html.twig" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="kate.iws" />
@@ -66,15 +55,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CategoryController.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Willothewisp/Bundle/TestTaskBundle/Controller/CategoryController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="63" selection-start="1208" selection-end="1208" vertical-scroll-proportion="-4.0" vertical-offset="648" max-vertical-offset="4050">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="LoadExecutorData.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Willothewisp/Bundle/TestTaskBundle/DataFixtures/ORM/LoadExecutorData.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -104,10 +84,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProjectRepository.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="ProjectRepository.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Willothewisp/Bundle/TestTaskBundle/Entity/ProjectRepository.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="59" selection-start="980" selection-end="980" vertical-scroll-proportion="0.76447874" vertical-offset="198" max-vertical-offset="810">
+            <state line="34" column="56" selection-start="1041" selection-end="1041" vertical-scroll-proportion="-15.333333" vertical-offset="198" max-vertical-offset="810">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html.twig" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Willothewisp/Bundle/TestTaskBundle/Resources/views/TreeStructure/index.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="24" column="0" selection-start="1040" selection-end="1040" vertical-scroll-proportion="0.64356434" vertical-offset="107" max-vertical-offset="612">
               <folding />
             </state>
           </provider>
@@ -162,9 +151,9 @@
         <option value="$PROJECT_DIR$/src/Willothewisp/Bundle/TestTaskBundle/Resources/views/Category/new.html.twig" />
         <option value="$PROJECT_DIR$/src/Willothewisp/Bundle/TestTaskBundle/Resources/views/Executor/createExecutor.html.twig" />
         <option value="$PROJECT_DIR$/src/Willothewisp/Bundle/TestTaskBundle/Controller/ExecutorController.php" />
-        <option value="$PROJECT_DIR$/src/Willothewisp/Bundle/TestTaskBundle/Resources/views/TreeStructure/index.html.twig" />
         <option value="$PROJECT_DIR$/src/Willothewisp/Bundle/TestTaskBundle/Resources/views/Executor/executors.html.twig" />
         <option value="$PROJECT_DIR$/src/Willothewisp/Bundle/TestTaskBundle/Entity/ProjectRepository.php" />
+        <option value="$PROJECT_DIR$/src/Willothewisp/Bundle/TestTaskBundle/Resources/views/TreeStructure/index.html.twig" />
       </list>
     </option>
   </component>
@@ -818,13 +807,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Willothewisp/Bundle/TestTaskBundle/Resources/views/TreeStructure/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="106" selection-start="711" selection-end="711" vertical-scroll-proportion="-9.333333" vertical-offset="0" max-vertical-offset="648">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Willothewisp/Bundle/TestTaskBundle/Resources/views/Executor/executors.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="21" selection-start="421" selection-end="421" vertical-scroll-proportion="-7.3333335" vertical-offset="0" max-vertical-offset="414">
@@ -908,7 +890,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Willothewisp/Bundle/TestTaskBundle/Entity/ProjectRepository.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="59" selection-start="980" selection-end="980" vertical-scroll-proportion="0.76447874" vertical-offset="198" max-vertical-offset="810">
+        <state line="34" column="56" selection-start="1041" selection-end="1041" vertical-scroll-proportion="-15.333333" vertical-offset="198" max-vertical-offset="810">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Willothewisp/Bundle/TestTaskBundle/Resources/views/TreeStructure/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="0" selection-start="1040" selection-end="1040" vertical-scroll-proportion="0.64356434" vertical-offset="107" max-vertical-offset="612">
           <folding />
         </state>
       </provider>
