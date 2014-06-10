@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4cfa9b70-81d3-4d5e-85c0-9a2752d630de" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Willothewisp/Bundle/TestTaskBundle/Resources/views/TreeStructure/index.html.twig" afterPath="$PROJECT_DIR$/src/Willothewisp/Bundle/TestTaskBundle/Resources/views/TreeStructure/index.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="kate.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,15 +25,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ExecutorController.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Willothewisp/Bundle/TestTaskBundle/Controller/ExecutorController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="36" selection-start="808" selection-end="808" vertical-scroll-proportion="-10.666667" vertical-offset="54" max-vertical-offset="810">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="LoadProjectData.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Willothewisp/Bundle/TestTaskBundle/DataFixtures/ORM/LoadProjectData.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -93,10 +83,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html.twig" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html.twig" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Willothewisp/Bundle/TestTaskBundle/Resources/views/TreeStructure/index.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="0" selection-start="1040" selection-end="1040" vertical-scroll-proportion="0.64356434" vertical-offset="107" max-vertical-offset="612">
+            <state line="24" column="0" selection-start="1040" selection-end="1040" vertical-scroll-proportion="-12.037037" vertical-offset="107" max-vertical-offset="612">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="103" selection-start="283" selection-end="283" vertical-scroll-proportion="0.16917293" vertical-offset="0" max-vertical-offset="532">
               <folding />
             </state>
           </provider>
@@ -138,7 +137,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/Willothewisp/Bundle/TestTaskBundle/DataFixtures/ORM/LoadProjectData.php" />
         <option value="$PROJECT_DIR$/src/Willothewisp/Bundle/TestTaskBundle/Entity/Executor.php" />
         <option value="$PROJECT_DIR$/src/Willothewisp/Bundle/TestTaskBundle/DataFixtures/ORM/LoadExecutorData.php" />
         <option value="$PROJECT_DIR$/src/Willothewisp/Bundle/TestTaskBundle/Resources/views/Category/edit.html.twig" />
@@ -154,6 +152,7 @@
         <option value="$PROJECT_DIR$/src/Willothewisp/Bundle/TestTaskBundle/Resources/views/Executor/executors.html.twig" />
         <option value="$PROJECT_DIR$/src/Willothewisp/Bundle/TestTaskBundle/Entity/ProjectRepository.php" />
         <option value="$PROJECT_DIR$/src/Willothewisp/Bundle/TestTaskBundle/Resources/views/TreeStructure/index.html.twig" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -786,13 +785,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Willothewisp/Bundle/TestTaskBundle/Resources/views/Project/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="73" selection-start="1176" selection-end="1250" vertical-scroll-proportion="-14.037037" vertical-offset="287" max-vertical-offset="828">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Willothewisp/Bundle/TestTaskBundle/Resources/views/Executor/createExecutor.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="68" selection-start="868" selection-end="868" vertical-scroll-proportion="-10.666667" vertical-offset="0" max-vertical-offset="504">
@@ -897,7 +889,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Willothewisp/Bundle/TestTaskBundle/Resources/views/TreeStructure/index.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="1040" selection-end="1040" vertical-scroll-proportion="0.64356434" vertical-offset="107" max-vertical-offset="612">
+        <state line="24" column="0" selection-start="1040" selection-end="1040" vertical-scroll-proportion="-12.037037" vertical-offset="107" max-vertical-offset="612">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="103" selection-start="283" selection-end="283" vertical-scroll-proportion="0.16917293" vertical-offset="0" max-vertical-offset="532">
           <folding />
         </state>
       </provider>
